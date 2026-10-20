@@ -1,0 +1,206 @@
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad: Producto registrado.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad: Producto registrado.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad: Producto registrado.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    85,000.00      10
+3   Sensor DHT11                   12,000.00      25
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    85,000.00      10
+3   Sensor DHT11                   12,000.00      25
+ID del producto: Nuevo precio (Enter = no cambiar): Nueva cantidad (Enter = no cambiar): Producto actualizado.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00      10
+3   Sensor DHT11                   12,000.00      25
+ID del producto: Cantidad a vender: Venta registrada. Total: 270,000.00
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00       7
+3   Sensor DHT11                   12,000.00      25
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00       7
+3   Sensor DHT11                   12,000.00      25
+ID del producto: Cantidad a vender: Error capturado: Fallo simulado después de registrar la venta.
+-> rollback() ejecutado.
+Antes:   (2, 'Arduino UNO', 90000.0, 7)
+Después: (2, 'Arduino UNO', 90000.0, 7)
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+Venta  Producto                   Cant.       Total  Fecha
+----------------------------------------------------------------------
+1      Arduino UNO                    3  270,000.00  2026-10-20 13:50:10
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00       7
+3   Sensor DHT11                   12,000.00      25
+ID a eliminar: Error: No se puede eliminar: el producto tiene ventas registradas.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00       7
+3   Sensor DHT11                   12,000.00      25
+ID a eliminar: Producto eliminado.
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio   Stock
+----------------------------------------------------
+1   Resistencia 1k                    200.00     500
+2   Arduino UNO                    90,000.00       7
+
+===== TIENDA DE COMPONENTES =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio / cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Demostrar rollback (error controlado)
+0. Salir
+
+Opción: 

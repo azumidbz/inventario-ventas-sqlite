@@ -1,0 +1,26 @@
+== 0. Estado inicial ==
+stock=10  ventas_registradas=0
+
+== 1. Venta correcta (3 unidades) -> commit ==
+Total: 255,000  |  stock=7  ventas_registradas=1
+
+== 2. Venta con error controlado (2 unidades) ==
+Antes:   stock=7  ventas_registradas=1
+Excepción capturada: Fallo simulado después de registrar la venta.
+-> rollback() cancela el INSERT de la venta
+Después: stock=7  ventas_registradas=1
+DATOS INTACTOS: SI
+
+== 3. Validaciones ==
+venta(producto=99, cant=1) -> El producto no existe.
+venta(producto=1, cant=500) -> Stock insuficiente de 'Arduino UNO': hay 7, se piden 500.
+stock=7  ventas_registradas=1
+
+== 4. Integridad referencial ==
+No se puede eliminar: el producto tiene ventas registradas.
+
+== 5. Historial (JOIN) ==
+
+Venta  Producto                   Cant.       Total  Fecha
+----------------------------------------------------------------------
+1      Arduino UNO                    3  255,000.00  2026-10-20 13:50:10
